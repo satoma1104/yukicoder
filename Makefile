@@ -21,4 +21,4 @@ debugtest:
 	$(MAKE) $(TARGET) CPPFLAGS=-DTEST OPT=-g
 
 clean:
-	rm -rf $(TARGET) $(OBJ)
+	rm -rf *.exe *.o *.stackdump
