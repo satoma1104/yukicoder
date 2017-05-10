@@ -5,7 +5,7 @@
 #include <sstream>
 #endif
 using namespace std;
-const int MAXPOS = 100000;
+const int MAXPOS = 1000000000;
 const int MAX_ITER = 100;
 int X_ANS;
 int Y_ANS;
