@@ -6,7 +6,7 @@ SRC=$(TARGET).cc
 OBJ=$(SRC:.cc=.o)
 WARNING=-Wall -pedantic-errors -Werror
 OPT=-O2
-CXXFLAGS=$(OPT) $(WARNING)
+CXXFLAGS=$(OPT) $(WARNING) -std=c++11
 
 $(TARGET): $(OBJ)
 	$(CXX) -o $@ $?
